@@ -15,7 +15,7 @@ properties:
   use-metrics: true
   
   # Show debug messages.
-  debug-messages: false
+  debug-messages: true
   
   # Auto add shop upon creation to our database. (only means of adding shops atm)
   auto-register: true
@@ -36,7 +36,7 @@ properties:
   one-owner-per-results: true
   
   # Name of your admin shop, to bypass our supply/balance check.
-  admin-shop: "Admin Shop"
+  admin-shop: "Administrator Shop"
   
   # Prevent full chests from being listed in the sell command. 
   exclude-full-chests-from-sell: true
@@ -45,7 +45,7 @@ properties:
   show-nicknames: true
   
   # Monitor hopper events to update shop stock.
-  hopper-detection: false
+  hopper-detection: true
   
   # Log transactions to DB
   log-transactions: true
@@ -56,7 +56,7 @@ properties:
   # How old in seconds should we include in the transaction commands.
   transaction-age-include: 604800
   
-# MySQL DB info.
+# MySQL DB information.
 mysql:
   hostname: localhost
   username: root
